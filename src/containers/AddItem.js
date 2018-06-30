@@ -4,6 +4,8 @@ import { addItem } from '../actions'
 
 const AddItem = ({ dispatch }) => {
   let input
+  dispatch(addItem("Inspection 1"))
+  dispatch(addItem("Inspection 2"))
 
   return (
     <div>
