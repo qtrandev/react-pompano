@@ -35,7 +35,7 @@ const AddItem = ({ dispatch }) => {
       >
         <input ref={node => input = node} />
         <button type="submit">
-          Add Item
+          Add
         </button>
       </form>
     </div>

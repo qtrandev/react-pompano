@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-  color: #008D54 /* text color from logo */
+  color: #008D54; /* text color from logo */
+  margin-left: 1px;
 }
 
 ul {
@@ -26,6 +27,14 @@ button {
   border-radius: 5px;
   margin: 5px;
   font-size: 15px;
+}
+
+input {
+  margin: 2px;
+  border: 1px solid;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
 }
 
 /* For Reference */
