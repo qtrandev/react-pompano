@@ -10,6 +10,7 @@ https://redux.js.org/basics/example-todo-list
 https://github.com/reduxjs/redux/tree/master/examples/todos  
 https://github.com/robenten/react-redux-draggable-todolist  
 https://github.com/gitname/react-gh-pages  
+https://cssreference.io  
 
 ## Common commands
 Start React app:  npm start  
