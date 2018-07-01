@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://qtrandev.github.io/react-pompano",
   "dependencies": {
+    "firebase": "^5.2.0",
     "gh-pages": "^1.2.0",
     "papaparse": "^4.5.0",
     "react": "^16.4.1",

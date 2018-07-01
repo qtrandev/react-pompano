@@ -2,9 +2,11 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { addItem } from '../actions'
 import Papa from 'papaparse'
+import firebase from 'firebase'
 
 const AddItem = ({ dispatch }) => {
   let input
+  let database
 
   // Load sample data
   const csvFilePath = require("../InspectionDataSample.csv")
@@ -20,6 +22,22 @@ const AddItem = ({ dispatch }) => {
       }
     },
   })
+
+  var config = {
+    apiKey: "AIzaSyBi0nYDoBipKq49lyDra1j5vhHnUF5-vLI",
+    authDomain: "react-pompano.firebaseapp.com",
+    databaseURL: "https://react-pompano.firebaseio.com",
+    projectId: "react-pompano",
+  };
+  firebase.initializeApp(config);
+  database = firebase.database();
+  database.ref('/').once('value')
+    .then(sections => {
+        console.log("Got something from Firebase: "+JSON.stringify(sections));
+    })
+    .catch(error => {
+      console.log("Got error from Firebase: "+JSON.stringify(error));
+    });
 
   return (
     <div>
