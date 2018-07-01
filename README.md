@@ -12,5 +12,6 @@ https://github.com/robenten/react-redux-draggable-todolist
 https://github.com/gitname/react-gh-pages  
 
 ## Common commands
-Start React app: npm start
-Deploy app to Github Pages: npm run deploy  
+Start React app:  npm start  
+Deploy app to Github Pages:  npm run deploy  
+Add packages to React:  npm install --save papaparse  
