@@ -34,6 +34,7 @@ const AddItem = ({ dispatch }) => {
   database.ref('/').once('value')
     .then(sections => {
         console.log("Got something from Firebase: "+JSON.stringify(sections));
+        dispatch(addItem(sections.child("test").val()));
     })
     .catch(error => {
       console.log("Got error from Firebase: "+JSON.stringify(error));
