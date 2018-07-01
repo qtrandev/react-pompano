@@ -1,11 +1,25 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { addItem } from '../actions'
+import Papa from 'papaparse'
 
 const AddItem = ({ dispatch }) => {
   let input
-  dispatch(addItem("Inspection 1"))
-  dispatch(addItem("Inspection 2"))
+
+  // Load sample data
+  const csvFilePath = require("../InspectionDataSample.csv")
+  Papa.parse(csvFilePath, {
+    header: true,
+    download: true,
+    complete: function(results, file) {
+      if (results) {
+        //console.log ("Results: "+JSON.stringify(results.data));
+        for (var i = 0; i < results.data.length; i++) {
+          dispatch(addItem(results.data[i].InspectionCodeDesc+" - "+results.data[i].Address))
+        }
+      }
+    },
+  })
 
   return (
     <div>
