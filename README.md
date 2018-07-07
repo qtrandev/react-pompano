@@ -11,6 +11,7 @@ https://github.com/reduxjs/redux/tree/master/examples/todos
 https://github.com/robenten/react-redux-draggable-todolist  
 https://github.com/gitname/react-gh-pages  
 https://cssreference.io  
+https://medium.com/@taweesoft/chapter-1-create-react-app-and-setup-firebase-real-time-todo-list-with-firebase-react-js-f03a904097c7  
 
 ## Common commands
 Start React app:  npm start  
