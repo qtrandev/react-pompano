@@ -2,7 +2,8 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { addItem } from '../actions'
 import Papa from 'papaparse'
-import firebase from 'firebase'
+import firebase from 'firebase/app';
+import 'firebase/database';
 
 const AddItem = ({ dispatch }) => {
   let input
@@ -33,7 +34,7 @@ const AddItem = ({ dispatch }) => {
   database = firebase.database();
   database.ref('/').once('value')
     .then(sections => {
-        console.log("Got something from Firebase: "+JSON.stringify(sections));
+        console.log("Retrieved item from Firebase: "+JSON.stringify(sections));
         dispatch(addItem(sections.child("test").val()));
     })
     .catch(error => {
