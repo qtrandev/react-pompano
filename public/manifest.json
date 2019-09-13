@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pompano Beach Inspectors",
+  "name": "Sample Code for Fort Lauderdale app for Pompano Beach to help inspectors manage daily inspections",
   "icons": [
     {
       "src": "favicon.ico",
