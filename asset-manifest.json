@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-pompano/static/css/main.46cc8ed0.chunk.css",
-    "main.js": "/react-pompano/static/js/main.b6dd289d.chunk.js",
-    "main.js.map": "/react-pompano/static/js/main.b6dd289d.chunk.js.map",
-    "runtime~main.js": "/react-pompano/static/js/runtime~main.f988da4a.js",
-    "runtime~main.js.map": "/react-pompano/static/js/runtime~main.f988da4a.js.map",
-    "static/js/2.4e65cb6c.chunk.js": "/react-pompano/static/js/2.4e65cb6c.chunk.js",
-    "static/js/2.4e65cb6c.chunk.js.map": "/react-pompano/static/js/2.4e65cb6c.chunk.js.map",
-    "index.html": "/react-pompano/index.html",
-    "precache-manifest.315dffee9c3d55fe58e90bc1f9e8256b.js": "/react-pompano/precache-manifest.315dffee9c3d55fe58e90bc1f9e8256b.js",
-    "service-worker.js": "/react-pompano/service-worker.js",
-    "static/css/main.46cc8ed0.chunk.css.map": "/react-pompano/static/css/main.46cc8ed0.chunk.css.map",
-    "static/media/InspectionDataSample.csv": "/react-pompano/static/media/InspectionDataSample.23abced9.csv"
+    "main.css": "./static/css/main.46cc8ed0.chunk.css",
+    "main.js": "./static/js/main.e6a96be5.chunk.js",
+    "main.js.map": "./static/js/main.e6a96be5.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.ba608da3.js",
+    "runtime~main.js.map": "./static/js/runtime~main.ba608da3.js.map",
+    "static/js/2.5f579318.chunk.js": "./static/js/2.5f579318.chunk.js",
+    "static/js/2.5f579318.chunk.js.map": "./static/js/2.5f579318.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.204b184d55b4588df02385aed4bd90ca.js": "./precache-manifest.204b184d55b4588df02385aed4bd90ca.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.46cc8ed0.chunk.css.map": "./static/css/main.46cc8ed0.chunk.css.map",
+    "static/media/InspectionDataSample.csv": "./static/media/InspectionDataSample.23abced9.csv"
   }
 }
