@@ -2,7 +2,7 @@
   "name": "react-pompano",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://qtrandev.github.io/react-pompano",
+  "homepage": ".",
   "dependencies": {
     "@firebase/app": "^0.4.16",
     "firebase": "^6.6.0",
